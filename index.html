@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="A page about meeting notes.">
+    <meta name="author" content="Ryan Lee">
+    <title>Meeting Notes</title>
+    <link rel="icon" type="image/x-icon" href="/screenshots/favicon.ico">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Nowhere n Particular</li>
+        </ul>
+    </nav>
+    <h1>Meeting Notes</h1>
+    <main>
+        <section>
+            <img src="screenshots/example.png" alt="placeholder screenshot" width="50%">
+            <header>
+                <h2>4/12: The First of Many</h2>
+            </header>
+            <h3>Topics: nothing!</h3>
+            <audio src="sound/Recording.mp3" type="audio/mp3">Aw snap, Your browser is really, really old.</audio>
+            <video width="50%" controls>
+                <source src="video/2023-04-12 15-19-42.mp4" type="video/mp4">
+                What the, your video doesn't work. you're not missing anything tho.
+            </video>
+            <div>This is <span>meaningless</span> text in a div.</div>
+            <hr>
+            <p>This is a paragraph.</p>
+            <ol>
+                <li>Unfinished business from the last <b>(nonexistent)</b> meeting</li>
+                <li>Brainstorm problems that haven't been <em>solved</em> <i>(impossible)</i></li>
+            </ol>
+            <details>
+                <summary>Open me to find out what's inside!</summary>
+                <p>Surprise! It was nothing.</p>
+            </details>
+            <a href="https://www.google.com">A useful link</a>
+            <br>
+        </section>
+        <form>
+            <label for="problem">Problem? Put it here.</label><br>
+            <input type="text" id="problem" name="problem"><br>
+            <label for="bigproblem">Big problem? Put it here.</label><br>
+            <textarea id="bigproblem" name="bigproblem" rows="4" cols="100"></textarea><br>
+            <label for="confirm">Is this a problem or not?</label><br>
+            <fieldset>
+            <input type="radio" id="yes" name="confirm" value="yes"><label for="yes">yes</label>
+            <input type="radio" id="no" name="confirm" value="no"><label for="no">no</label><br>
+            </fieldset>
+            <fieldset>
+            <input type="checkbox" id="bruh1"><label for="bruh1">Bruh1</label>
+            <input type="checkbox" id="bruh2"><label for="bruh2">Bruh2</label>
+            </fieldset>
+            <label>Want to put a random number? Now you can. We have some options but you're not restricted to them.</label>
+            <input list="numbers" name="number" id="number">
+            <datalist id="numbers">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+            </datalist><br>
+            <label for="numbersselect">This is apparently a different type of selection...</label>
+            <select name="numbersselect" id="numbersselect">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br>
+            <button type="button">A button that does nothing</button><br>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
