@@ -7,7 +7,7 @@
 - Team 2
 - Team 3
 
-## Results
+## Discussion 
 ### team 1
 - balh
 - balh
@@ -25,6 +25,11 @@
 - balh
 - balh
 - balh
+- balh
+- balh
+- balh
+### Free Discussion
+- bladj
 - balh
 - balh
 - balh
