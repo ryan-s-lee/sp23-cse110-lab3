@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Inter-Light";
+    src: url("/assets/Inter/static/Inter-Light.ttf")
+        format("ttf");
+}
+
 body {
     background-color: rgb(255, 233, 233);
 }
