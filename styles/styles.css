@@ -14,6 +14,7 @@ body {
     height: fit-content;
     max-width: 300px;
     min-width: 200px;
+    border-color: purple;
 }
 
 #flex-div * {
@@ -21,7 +22,7 @@ body {
 }
 
 .gen-box {
-    border-color: purple;
+    border-color: hsla(255, 50%, 50%, .9);
     border-width: 5px;
     border-radius: 10px;
     border-style: solid;
@@ -51,4 +52,16 @@ body {
 #flex-div > .row {
     display: flex;
     flex-direction: column-reverse;
+}
+
+#div-1 {
+    display: none;
+    position: static;
+}
+
+#div-2 {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }
