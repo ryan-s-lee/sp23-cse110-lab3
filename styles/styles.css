@@ -4,11 +4,20 @@ body {
 
 #flex-div {
     display: flex;
+    flex-direction: row-reverse;
     margin: 5px;
     padding-top: 5px;;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 15px;
+    width: 20vw;
+    height: fit-content;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+#flex-div * {
+    align-self: flex-end;
 }
 
 .gen-box {
@@ -37,4 +46,9 @@ body {
     color: #00AA00;
     text-decoration: overline;
     text-align: center;
+}
+
+#flex-div > .row {
+    display: flex;
+    flex-direction: column-reverse;
 }
