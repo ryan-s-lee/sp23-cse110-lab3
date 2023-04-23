@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "Inter-Light";
-    src: url("/assets/Inter/static/Inter-Light.ttf")
-        format("ttf");
+    font-family: 'Roboto';
+    src: 
+        url("/assets/Roboto/Roboto-Light.ttf");
 }
 
 body {
@@ -49,6 +49,7 @@ div.gen-box {
 }
 
 * {
+    font-family: "Roboto";
     color: #00AA00;
     text-decoration: overline;
     text-align: center;
