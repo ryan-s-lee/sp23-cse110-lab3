@@ -25,6 +25,12 @@ body {
     margin-right: 10px;
     margin-bottom: 15px;
     padding: 5px;
+    grid-template-columns: 30rem 30rem 30rem;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "row1 row1 row1"
+    "row2 row2 row2"
+    "row3 row3 row3";
 }
 
 * {
