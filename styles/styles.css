@@ -11,6 +11,9 @@ body {
 #flex-div {
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+    gap: 1rem;
     margin: 5px;
     padding-top: 5px;;
     padding-left: 10px;
@@ -23,15 +26,11 @@ body {
     border-color: purple;
 }
 
-#flex-div * {
-    align-self: flex-end;
-}
-
-.gen-box {
+div.gen-box {
     border-color: hsla(255, 50%, 50%, .9);
     border-width: 5px;
     border-radius: 10px;
-    border-style: solid;
+    border-style: dotted;
 }
 
 .grid-div {
@@ -70,4 +69,39 @@ body {
     position: absolute;
     top: 100px;
     left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #00AA00;
+}
+
+#div-2:hover {
+    background-color: red;
+}
+
+#nothing-button:active {
+    background-color:blue;
+}
+
+@media (max-width: 1000px) {
+    #div-1{
+        display:block;
+    }
+
+    body {
+        background-color: aquamarine;
+    }
+    
+}
+
+a[href="https://www.google.com"]{
+    color:green;
+    background-color: blue;
+}
+
+#flex-child-5 ~ * {
+    color:blueviolet;
+}
+
+#grid-child-5, #grid-child-5 + * {
+    color: blueviolet;
 }
